@@ -57,12 +57,12 @@ export class AccountListComponent implements OnInit {
 
   createNewAccount() {
     this.loading = true;
+    this.cdr.markForCheck();
     this.accountService
       .create(this.userId, this.newAccountInitialAmount)
       .subscribe((res) => {
         this.viewAccounts();
         this.createNewAccountSelected = false;
-        this.loading = false;
         this.cdr.markForCheck();
       });
   }

@@ -18,7 +18,7 @@ public class UserController : ControllerBase
         _userService = userService;
     }
     
-    [HttpGet]
+    [HttpGet("all")]
     public Task<List<UserDTO>> GetAll()
     {
         return _userService.GetAll();

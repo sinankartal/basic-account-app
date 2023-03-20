@@ -22,7 +22,7 @@ export class UserService {
       `Bearer ${this.token}`
     );
 
-    return this.http.get<User[]>(this.apiUrl + 'user/', { headers });
+    return this.http.get<User[]>(this.apiUrl + 'user/all', { headers });
   }
 
   getUserAccounts(userId: string): Observable<UserAccountsDTO> {

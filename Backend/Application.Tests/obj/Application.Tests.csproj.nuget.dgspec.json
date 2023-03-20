@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sinankartal/RiderProjects/Account-APP/Backend/Application.Tests/Application.Tests.csproj": {}
+    "/Users/sinankartal/RiderProjects/basic-account-app/Backend/Application.Tests/Application.Tests.csproj": {}
   },
   "projects": {
-    "/Users/sinankartal/RiderProjects/Account-APP/Backend/Application.Tests/Application.Tests.csproj": {
+    "/Users/sinankartal/RiderProjects/basic-account-app/Backend/Application.Tests/Application.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sinankartal/RiderProjects/Account-APP/Backend/Application.Tests/Application.Tests.csproj",
+        "projectUniqueName": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/Application.Tests/Application.Tests.csproj",
         "projectName": "Application.Tests",
-        "projectPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/Application.Tests/Application.Tests.csproj",
+        "projectPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/Application.Tests/Application.Tests.csproj",
         "packagesPath": "/Users/sinankartal/.nuget/packages/",
-        "outputPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/Application.Tests/obj/",
+        "outputPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/Application.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sinankartal/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Application/Application.csproj": {
-                "projectPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Application/Application.csproj"
+              "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Application/Application.csproj": {
+                "projectPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Application/Application.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Application/Application.csproj": {
+    "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Application/Application.csproj",
+        "projectUniqueName": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Application/Application.csproj",
+        "projectPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Application/Application.csproj",
         "packagesPath": "/Users/sinankartal/.nuget/packages/",
-        "outputPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Application/obj/",
+        "outputPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sinankartal/.nuget/NuGet/NuGet.Config"
@@ -115,14 +115,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Common/Common.csproj": {
-                "projectPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Common/Common.csproj"
+              "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Common/Common.csproj": {
+                "projectPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Common/Common.csproj"
               },
-              "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/DataAccess/DataAccess.csproj": {
-                "projectPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/DataAccess/DataAccess.csproj"
+              "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/DataAccess/DataAccess.csproj"
               },
-              "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Infrastructure/Infrastructure.csproj"
+              "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -172,14 +172,14 @@
         }
       }
     },
-    "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Common/Common.csproj": {
+    "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Common/Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Common/Common.csproj",
+        "projectUniqueName": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Common/Common.csproj",
         "projectName": "Common",
-        "projectPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Common/Common.csproj",
+        "projectPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Common/Common.csproj",
         "packagesPath": "/Users/sinankartal/.nuget/packages/",
-        "outputPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Common/obj/",
+        "outputPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Common/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sinankartal/.nuget/NuGet/NuGet.Config"
@@ -249,14 +249,14 @@
         }
       }
     },
-    "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/DataAccess/DataAccess.csproj": {
+    "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/DataAccess/DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/DataAccess/DataAccess.csproj",
+        "projectUniqueName": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/DataAccess/DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/DataAccess/DataAccess.csproj",
+        "projectPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/DataAccess/DataAccess.csproj",
         "packagesPath": "/Users/sinankartal/.nuget/packages/",
-        "outputPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/DataAccess/obj/",
+        "outputPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sinankartal/.nuget/NuGet/NuGet.Config"
@@ -271,8 +271,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Common/Common.csproj": {
-                "projectPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Common/Common.csproj"
+              "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Common/Common.csproj": {
+                "projectPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Common/Common.csproj"
               }
             }
           }
@@ -318,14 +318,14 @@
         }
       }
     },
-    "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Infrastructure/Infrastructure.csproj": {
+    "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/Users/sinankartal/.nuget/packages/",
-        "outputPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Infrastructure/obj/",
+        "outputPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sinankartal/.nuget/NuGet/NuGet.Config"

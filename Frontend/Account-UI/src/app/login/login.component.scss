@@ -1,24 +1,40 @@
-form {
+.container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  height: 100vh;
+  background-color: #f8f9fa;
 }
 
-label, input {
-  margin-bottom: 20px;
-}
-
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: white;
-  border: none;
+.login-form {
+  background-color: #ffffff;
   border-radius: 5px;
-  cursor: pointer;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
 }
 
-button:hover {
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.form-label {
+  color: #343a40;
+}
+
+.form-group{
+  margin:16px;
+}
+
+
+.btn-primary {
+  color: white;
   background-color: #0069d9;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 60px;
+  height: 30px;
+  float: right;
 }

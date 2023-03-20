@@ -44,24 +44,23 @@
 
   <div class="account-list__create-container">
     <button
-      *ngIf="!createNewAccountSelected"
+      *ngIf="!createNewAccountSelected && !loading"
       (click)="createNewAccountSelected = !createNewAccountSelected"
       class="account-list__create-button"
     >
       Create New Account
     </button>
-    <div *ngIf="createNewAccountSelected" class="account-list__create-form">
+    <div
+      *ngIf="createNewAccountSelected && !loading"
+      class="account-list__create-form"
+    >
       <input
         class="account-list__create-input"
         type="number"
         placeholder="Initial Amount"
         [(ngModel)]="newAccountInitialAmount"
       />
-      <button
-        [disabled]="loading"
-        (click)="createNewAccount()"
-        class="account-list__create-button"
-      >
+      <button (click)="createNewAccount()" class="account-list__create-button">
         Create
       </button>
     </div>
@@ -94,8 +93,20 @@
     </div>
     <div class="dialog__actions">
       <button class="dialog__button" (click)="closeDialog()">Close</button>
-      <button class="dialog__button" *ngIf="!addTransactionSelected" (click)="addTransactionSelected = true">Add Money</button>
-      <button class="dialog__button__addMoney" *ngIf="addTransactionSelected" (click)="addMoney()">Approve</button>
+      <button
+        class="dialog__button"
+        *ngIf="!addTransactionSelected"
+        (click)="addTransactionSelected = true"
+      >
+        Add Money
+      </button>
+      <button
+        class="dialog__button__addMoney"
+        *ngIf="addTransactionSelected"
+        (click)="addMoney()"
+      >
+        Approve
+      </button>
     </div>
   </div>
 </div>

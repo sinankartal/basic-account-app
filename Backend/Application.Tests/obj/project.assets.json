@@ -7817,11 +7817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sinankartal/RiderProjects/Account-APP/Backend/Application.Tests/Application.Tests.csproj",
+      "projectUniqueName": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/Application.Tests/Application.Tests.csproj",
       "projectName": "Application.Tests",
-      "projectPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/Application.Tests/Application.Tests.csproj",
+      "projectPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/Application.Tests/Application.Tests.csproj",
       "packagesPath": "/Users/sinankartal/.nuget/packages/",
-      "outputPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/Application.Tests/obj/",
+      "outputPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/Application.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sinankartal/.nuget/NuGet/NuGet.Config"
@@ -7836,8 +7836,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Application/Application.csproj": {
-              "projectPath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/src/Application/Application.csproj"
+            "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Application/Application.csproj": {
+              "projectPath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/src/Application/Application.csproj"
             }
           }
         }

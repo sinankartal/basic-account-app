@@ -134,12 +134,12 @@ static void AddSeedData(WebApplication app)
 {
     var scope = app.Services.CreateScope();
     var accountDbContext = scope.ServiceProvider.GetService<AccountDbContext>();
-
-    accountDbContext.Users.AddRange(Enumerable.Range(0, 10).Select(x => new User
+    int i = 0;
+    accountDbContext.Users.AddRange(Enumerable.Range(1, 10).Select(x => new User
     {
         Id = Guid.NewGuid(),
-        Name = $"User {Guid.NewGuid()}",
-        Surname = $"Surname {Guid.NewGuid()}",
+        Name = $"Sinan {x}",
+        Surname = $"Kartal {x}"
     }));
 
     accountDbContext.SaveChanges();

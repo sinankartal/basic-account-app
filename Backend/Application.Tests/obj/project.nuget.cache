@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M4WQm5VZ4nieI5TjloTj1BqgRYRCDi/6pkhIeDIKn0GmOMxA1/E09jlmUityDppskXtd6MJKvUnRzba9rBQc8g==",
+  "dgSpecHash": "F90Frk5fGf5ePCNGAnFARlxOm+H8JWpWVBERONiUz18N8w/w8/Aun9oLPt/ODwJBYN6/IsEibD1UZ/EdxkVkUw==",
   "success": true,
-  "projectFilePath": "/Users/sinankartal/RiderProjects/Account-APP/Backend/Application.Tests/Application.Tests.csproj",
+  "projectFilePath": "/Users/sinankartal/RiderProjects/basic-account-app/Backend/Application.Tests/Application.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/sinankartal/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/sinankartal/.nuget/packages/azure.core/1.30.0/azure.core.1.30.0.nupkg.sha512",
