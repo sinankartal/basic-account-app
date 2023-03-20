@@ -60,5 +60,5 @@ Run the following commands:
 The API will be hosted on http://localhost:7093 by default, where 7093 is the port number specified in the launchSettings.json file.
 The UI application will be hosted on http://localhost:4200.
 Open a web browser to see the UI and go to http://localhost:4200.
-Go to http://localhost:7140/7093 to view the available endpoints and test the API.
+Go to http://localhost:7093 to view the available endpoints and test the API.
 
