@@ -1,0 +1,47 @@
+.user-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #ddd;
+    }
+  }
+}
+
+
+.link-button {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+

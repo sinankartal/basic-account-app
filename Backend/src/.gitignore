@@ -1,0 +1,22 @@
+# Build artifacts
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.psess
+*.cache
+*.sln.ide
+
+# Rider files
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/

@@ -1,0 +1,101 @@
+<div class="account-list">
+  <h2 class="account-list__heading">{{ selecteduser?.name }} Account List</h2>
+  <div *ngIf="loading">Loading...</div>
+  <div *ngIf="!loading">
+    <table
+      class="account-list__table"
+      *ngIf="
+        userAccountInfo &&
+          userAccountInfo.accounts &&
+          userAccountInfo.accounts.length > 0;
+        else noAccount
+      "
+    >
+      <thead>
+        <tr>
+          <th class="account-list__table-header">Account Number</th>
+          <th class="account-list__table-header">Balance</th>
+          <th class="account-list__table-header">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-container *ngFor="let account of userAccountInfo?.accounts">
+          <tr class="account-list__table-row">
+            <td class="account-list__table-cell">
+              {{ account.accountNumber }}
+            </td>
+            <td class="account-list__table-cell">{{ account.balance }}</td>
+            <td class="account-list__table-cell">
+              <a
+                style="cursor: pointer"
+                class="account-list__action-link"
+                (click)="showTransactions(account.accountNumber)"
+                >View Accounts</a
+              >
+            </td>
+          </tr>
+        </ng-container>
+      </tbody>
+    </table>
+  </div>
+  <ng-template #noAccount>
+    <p class="account-list__no-account">Selected user has no accounts.</p>
+  </ng-template>
+
+  <div class="account-list__create-container">
+    <button
+      *ngIf="!createNewAccountSelected"
+      (click)="createNewAccountSelected = !createNewAccountSelected"
+      class="account-list__create-button"
+    >
+      Create New Account
+    </button>
+    <div *ngIf="createNewAccountSelected" class="account-list__create-form">
+      <input
+        class="account-list__create-input"
+        type="number"
+        placeholder="Initial Amount"
+        [(ngModel)]="newAccountInitialAmount"
+      />
+      <button
+        [disabled]="loading"
+        (click)="createNewAccount()"
+        class="account-list__create-button"
+      >
+        Create
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="overlay" *ngIf="showDialog">
+  <div class="dialog">
+    <h2 class="dialog__title">Transaction Details</h2>
+    <div class="dialog__content">
+      <p><strong>Account Number:</strong> {{ selectedAccountNumber }}</p>
+      <div *ngIf="!addTransactionSelected">
+        <div *ngFor="let transaction of selectedAccountTransaction">
+          <p><strong>Amount:</strong> {{ transaction.amount }}</p>
+          <p>
+            <strong>Date:</strong>
+            {{ transaction.date | date : "dd/MM/yyyy HH:mm:ss" }}
+          </p>
+          <hr />
+        </div>
+      </div>
+      <div *ngIf="addTransactionSelected">
+        <input
+          class="account-list__create-input"
+          type="number"
+          placeholder="Initial Amount"
+          [(ngModel)]="newAccountInitialAmount"
+        />
+      </div>
+    </div>
+    <div class="dialog__actions">
+      <button class="dialog__button" (click)="closeDialog()">Close</button>
+      <button class="dialog__button" *ngIf="!addTransactionSelected" (click)="addTransactionSelected = true">Add Money</button>
+      <button class="dialog__button__addMoney" *ngIf="addTransactionSelected" (click)="addMoney()">Approve</button>
+    </div>
+  </div>
+</div>

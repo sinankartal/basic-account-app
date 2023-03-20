@@ -1,0 +1,26 @@
+<div class="user-list">
+  <h2>User List</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let user of users; let i = index;">
+        <tr>
+
+          <td>{{ user.name }}</td>
+          <td>{{ user.surname }}</td>
+          <td>
+            <a class="link-button" (click)="viewAccounts(user.id)">View Accounts</a>
+          </td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+
+</div>
+
